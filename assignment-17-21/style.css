@@ -1,0 +1,58 @@
+/* التكليف 01 */
+.title {
+    text-shadow: 1px 1px 0px red, 2px 2px 0px blue, 3px 3px 0px rebeccapurple, 4px 4px 0px green;
+}
+
+/* التكليف 01 */
+
+/* التكليف 02 */
+.one {
+    text-transform: uppercase;
+}
+
+.two {
+    text-transform: capitalize;
+}
+
+/* التكليف 02 */
+
+/* التكليف 03 */
+.first {
+    max-width: 400px;
+    background-color: #eee;
+    padding: 10px;
+    margin: 10px;
+}
+
+.second {
+    max-width: 400px;
+    background-color: #eee;
+    padding: 10px;
+    margin: 10px;
+}
+
+.third {
+    max-width: 400px;
+    background-color: #eee;
+    padding: 10px;
+    margin: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* التكليف 03 */
+
+/* التكليف 04 */
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    background-color: rgb(109, 180, 126);
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    border-bottom: 10px solid green;
+}
+
+/* التكليف 04 */
