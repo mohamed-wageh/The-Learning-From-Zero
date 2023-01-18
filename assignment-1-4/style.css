@@ -1,0 +1,87 @@
+/*
+ التكليف 01 
+ اكتب في تعليق كل Selector ما الذي يعبر عنه
+ */
+
+/* Any Element With Class Title */
+.title {
+}
+
+/* element with id nav */
+#nav {
+}
+
+/* any div element */
+div {
+}
+
+/* any h2 element */
+h2 {
+}
+/* التكليف 01 */
+
+/*
+ التكليف 05 
+ في أسماء ال Identifiers التالية حدد ما هو صالح وما هو غير صالح عن طريق كتابة Valid أو Not Valid في التعليق قبل الإسم
+ */
+
+/* Valid  */
+._user-name {
+}
+
+/* Valid  */
+.-user-name {
+}
+
+/* Valid  */
+.-user-name {
+}
+
+/* Not Valid  */
+.1user-name {
+}
+
+/* Not Valid  */
+.@user-name {
+}
+
+/* Not Valid  */
+.user@name {
+}
+
+/* Valid  */
+._user10name {
+}
+
+/* Valid  */
+.u {
+}
+
+/* التكليف 05 */
+
+/*
+ التكليف 06 
+ في أسماء ال Identifiers التالية حدد ما الذي يتبع ال Best Practice عن طريق كتابة Good أو Bad في التعليق قبل الإسم
+
+ */
+
+/* Bad */
+.USERNAME {
+}
+
+/* Good  */
+.UserName {
+}
+
+/* Good  */
+.user-name {
+}
+
+/* Good  */
+.userName {
+}
+
+/* Bad */
+.usernameprofile {
+}
+/* التكليف 06 */
