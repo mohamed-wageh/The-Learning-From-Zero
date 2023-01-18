@@ -1,0 +1,22 @@
+/* التكليف 01  */
+.parent .child .title {
+    color: red;
+}
+.parent .title{
+    color: blue;
+}
+p ,.title{
+    color: green;
+}
+ /* التكليف 01  */
+
+ /* التكليف 02  */
+.one , .two , .three , .four{
+    background-color: red;
+    margin: 20px;
+    width: fit-content;
+    max-width: 400px;
+    height: 30px;
+    overflow-y: hidden;
+}
+ /* التكليف 02  */
