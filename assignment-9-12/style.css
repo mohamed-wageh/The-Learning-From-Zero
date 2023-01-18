@@ -1,0 +1,64 @@
+body{
+    margin: 20px;
+}
+
+/* التكليف 01 */
+.shape1{
+    background-color: rgba(238, 238, 238, 0.747);
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border-width: 5px;
+    border-color: red;
+    border-style: solid;
+    outline: 5px black solid;
+}
+.shape2{
+    background-color: rgba(238, 238, 238, 0.747);
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border-width: 5px;
+    border-color: blue green;
+    border-style: solid;
+    outline: 5px black solid;
+}
+.shape3{
+    background-color: rgba(238, 238, 238, 0.747);
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border-width: 5px;
+    border-color: red green blue yellow;
+    border-style: dashed;
+    outline: 5px black solid;
+}
+/* التكليف 01 */
+
+/* التكليف 02 */
+.note1{
+    margin-top: 30px;
+    width: 400px;
+    background-color: rgb(201, 201, 201);
+    padding: 10px;
+    border-left: 5px gold solid;
+    outline: 10px rgb(201, 201, 201) solid;
+}
+.note2{
+    margin-top: 30px;
+    width: 400px;
+    background-color: rgb(201, 201, 201);
+    padding: 10px;
+    border-left: 5px gold solid;
+    outline: 10px rgb(201, 201, 201) solid;
+    visibility: hidden;
+}
+.note3{
+    margin-top: 30px;
+    width: 400px;
+    background-color: rgb(201, 201, 201);
+    padding: 10px;
+    border-left: 5px gold solid;
+    outline: 10px rgb(201, 201, 201) solid;
+}
+/* التكليف 02 */

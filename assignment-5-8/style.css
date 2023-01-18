@@ -6,6 +6,8 @@
     background-color: #8a2be2;
     background-color: rgb(138 43 226 / 50%);
     background-color: hsl(271, 76%, 53%);
+    margin:auto;
+
 }
 
 .assign-1-shape-2{
@@ -14,6 +16,7 @@
     background-color: blueviolet;
     background-color: #8a2be2;
     background-color: rgb(138 43 226 / 50%);
+    margin: auto;
 }
 
 .assign-1-shape-3{
@@ -22,6 +25,8 @@
     background-color: blueviolet;
     background-color: #8a2be2;
     background-color: rgb(138 43 226 / 10%);
+    margin: auto;
+
 }
 /* التكليف 01 */
 
@@ -37,18 +42,24 @@
     width: 400px;
     background-image: url(./test.png);
     background-repeat: repeat-y;
+    margin: 20px;
+
 }
 .assign-2-shape-3{
     height: 400px;
     width: 400px;
     background-image: url(./test.png);
     background-repeat: repeat-x;
+    margin: 20px;
+
 }
 .assign-2-shape-4{
     height: 400px;
     width: 400px;
     background-image: url(./test.png);
     background-repeat:repeat;
+    margin: 20px;
+
 }
 /* التكليف 02 */
 
@@ -66,6 +77,8 @@
     background-image: url(./test.png);
     background-repeat: repeat-y;
     background-position: top right;
+    margin: 20px;
+
 }
 .assign-3-shape-3{
     width: 400px;
@@ -73,12 +86,16 @@
     background-image: url(./test.png);
     background-repeat: repeat-x;
     background-position: bottom;
+    margin: 20px;
+
 }
 .assign-3-shape-4{
     width: 400px;
     height: 400px;
     background-image: url(./test.png);
     background-repeat: repeat;
+    margin: 20px;
+
 }
 /* التكليف 03 */
 
@@ -97,6 +114,8 @@
     background-repeat: repeat-y;
     background-image: url(./test.png);
     background-position: right;
+    margin: 20px;
+
 }
 .assign-4-shape-3{
     width: 400px;
@@ -104,6 +123,8 @@
     background-repeat: repeat-x;
     background-image: url(./test.png);
     background-position: bottom;
+    margin: 20px;
+
 }
 .assign-4-shape-4{
     width: 400px;
@@ -112,5 +133,7 @@
     background-image: url(./test.png);
     background-size: 50%;
     background-position: right bottom;
+    margin: 20px;
+
 }
 /* التكليف 04 */
