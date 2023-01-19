@@ -1,0 +1,70 @@
+/* التكليف 01 */
+.parant {
+    background-color: #eee;
+    width: 800px;
+    height: 150px;
+}
+
+.parant div {
+    background-color: #d8d8d8;
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+    text-align: center;
+
+}
+
+.parant .main {
+    width: calc(100% - 30px/1);
+}
+
+.parant .One {
+    width: calc((100% - 60px)/3);
+}
+
+.parant .Two {
+    width: calc((100% - 45px)/2);
+}
+
+.parant .three {
+    width: calc((100% - 75px)/4);
+}
+
+/* التكليف 01 */
+
+/* التكليف 02 */
+.normal {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: #d8d8d8;
+    /* Get The Background From Image */
+    color: black;
+}
+
+.one {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: rgb(216, 216, 216, 0.1);
+    /* Get The Background From Image */
+    color: black;
+}
+
+.two {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: rgb(216, 216, 216);
+    opacity: 0.1;
+    /* Get The Background From Image */
+    color: black;
+}
+
+/* التكليف 02 */
