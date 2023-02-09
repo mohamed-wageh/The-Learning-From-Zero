@@ -1,0 +1,87 @@
+<!-- التكليف 01 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn JavaScript</title>
+    <script>
+      /*
+      it is will
+      not work 
+      because did not 
+      read el element yet
+      */
+      document.getElementById("el").style.color = "red";
+    </script>
+    <script>
+      /*
+      it is will
+      work 
+      because it read script
+      after load the page
+      */
+      window.onload = function () {
+        document.getElementById("el").style.color = "red";
+      };
+    </script>
+  </head>
+  <body>
+    <h2 id="el">Page Title</h2>
+    <script>
+      /*
+      it is will
+      work 
+      because it read 
+      element and 
+      apply the change
+      */
+      document.getElementById("el").style.color = "red";
+    </script>
+    <!-- التكليف 02 -->
+    <script>
+      document.write("<h1>ElZero</h1>");
+      document.querySelector("h1").style.color = "blue";
+      document.querySelector("h1").style.fontSize = "80px";
+      document.querySelector("h1").style.fontWeight = "bold";
+      document.querySelector("h1").style.textAlign = "center";
+      document.querySelector("h1").style.fontFamily = "Arial";
+      // التكليف 03
+      console.log(
+        "%cElzero %cWeb %cSchool",
+        "color:red; font-size:40px;",
+        "color:green; font-size:40px; font-weight:bold;",
+        "color:white; font-size:40px; background-color:blue;"
+      );
+
+      // التكليف 04
+
+      console.group("group one");
+      console.log("msg one");
+      console.log("msg two");
+      console.group("child group");
+      console.log("msg one");
+      console.log("msg two");
+      console.group("grand child group");
+      console.log("msg one");
+      console.log("msg two");
+      console.groupEnd();
+      console.groupEnd();
+      console.groupEnd();
+      console.group("group two");
+      console.log("msg one");
+      console.log("msg two");
+      console.groupEnd();
+      // التكليف 05
+
+      console.table(["Elzero", " Mohamed", " Ahmed", "Gamal", "Aya"]);
+      // التكليف 06
+
+      // console.log("Iam In Console");
+      /*
+      document.write("Iam In Page");
+      */
+    </script>
+  </body>
+</html>
