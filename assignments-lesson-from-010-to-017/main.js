@@ -24,8 +24,9 @@ ${Number_two}`);
 */
 
 // التكليف 02
-// console.log(elzero.innerHTML); // object
-// console.log(typeof elzero); // object
+
+console.log(elzero.innerHTML); // object
+console.log(typeof elzero); // object
 
 // التكليف 03
 console.log("`I'm In\n\\\\\nLove \\\\ \"\"\" \'\'\'\n\+\+ With \+\+\n\\\"\"\"\\\"\"\"\n\"\"JavaScript\"\"\`\`");
@@ -35,3 +36,4 @@ let a = 21;
 let b = 20;
 
 console.log(`_${a}_${b}${a}_${b}${a}_${b}${a}_${b}_`); // _21_2021_2021_2021_20_
+console.log(elzero);
