@@ -20,7 +20,6 @@ html {
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: black;
 }
 
 ul {
@@ -56,7 +55,49 @@ ul {
 }
 
 /* end global rules */
-
+/* start components */
+.section{
+  padding: 100px;
+}
+.main-heading {
+  text-align: center;
+}
+.main-heading h2{
+font-weight: normal;
+font-size: 40px;
+position: relative;
+margin-bottom: 70px;
+text-transform: uppercase;
+}
+.main-heading h2::before{
+content:'';
+position: absolute;
+left: 50%;
+transform: translatex(-50%);
+height: 2px;
+background-color: #333;
+bottom: -30px;
+width: 120px;
+}
+.main-heading h2::after{
+  content:'';
+  position: absolute;
+left: 50%;
+transform: translatex(-50%);
+width: 14px;
+height: 14px;
+border-radius: 50%;
+border: 2px solid #333;
+bottom: -38px;
+background-color: white;
+}
+.main-heading p{
+width: 550px;
+margin: 0 auto 100px;
+max-width: 100%;
+color: #777;
+}
+/* end components */
 /* start header  */
 header {
   position: absolute;
