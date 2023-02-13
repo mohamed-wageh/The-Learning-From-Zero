@@ -44,3 +44,25 @@ console.log(Math.round(flt)); // 10
 
 // التكليف 07
 console.log((Math.random()*4).toFixed(0)); // 0 || 1 || 2 || 3 || 4
+
+// Numbers From Variables
+let a = 100;
+let b = 2_00.5;
+let c = 1e2;
+let d = 2.4;
+
+// Find Smallest Number In All Variables And Return Integer
+console.log(Math.round(Math.min(a,b,c,d))); // 2
+
+// Use Variables a + d One Time To Get The Needed Output
+console.log(Math.round(d*4)*a); // 10000
+
+// Get Integer "2" From d Variable With 4 Methods
+console.log(Math.round(d)); // 2
+console.log(Math.floor(d)); // 2
+console.log(d.toFixed(0)); // 2
+console.log(parseInt(d)); // 2
+
+// Use Variables b + d To Get This Valus
+console.log((parseInt(b) / Math.ceil(d)).toFixed(2)); // 66.67 => String
+console.log((Math.round(parseInt(b) / Math.ceil(d)))); // 67 => Number
